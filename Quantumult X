@@ -1,0 +1,6 @@
+vmess = 1.245256.xyz:443, method=chacha20-ietf-poly1305, password=a69708b6-6f96-432c-affe-0d3cdd1b5389, aead=true, tls13=false, obfs=wss, obfs-host=1.245256.xyz, obfs-uri=/admin, fast-open=false, udp-relay=true, tag=复活了1.245256.xyz
+vmess = 1.153457.xyz:16274, method=chacha20-ietf-poly1305, password=5a04daa1-b49a-417e-8f75-2c6e04e84ae7, aead=true, fast-open=false, udp-relay=true, tag=一年的1.153
+trojan = 1.153457.xyz:27142, password=lP2b0yTV4S, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=true, tag=1.153457.xyz:27142
+trojan = v2.xiaozhi8.xyz:35981, password=DxwiFOnVTe, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=true, tag=v2.xiaozhi8.xyz:35981
+trojan = v2.xiaozhi8.xyz:13301, password=e2PzdVED0B, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=true, tag=🇷🇺 v2.xiaozhi8.xyz俄罗斯
+trojan = v2.xiaozhi8.xyz:35981, password=DxwiFOnVTe, over-tls=true, tls-host=, tls13=false, fast-open=false, udp-relay=true, tls-verification=true, tag=转发再转发

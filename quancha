@@ -1,6 +1,5 @@
 trojan = 1.245256.xyz:37240, password=jprWtMLTsH, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=1.245256.xyz:37240
 trojan = 1.245256.xyz:44624, password=fsN53sIUZV, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=1.245256.xyz:44624
 trojan = 1.245256.xyz:15989, password=2JPUJxnNxF, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=1.245256.xyz:15989
-vmess = 172.67.188.120:443, method=chacha20-ietf-poly1305, password=c672038e-4c95-4b62-c7ca-4a25389af8e3, aead=true, obfs=wss, obfs-host=1.245256.xyz, obfs-uri=/hjj, fast-open=false, udp-relay=false, tls-verification=true, tag=优选ip443
 trojan = 1.153457.xyz:35851, password=Nk7UJysOke, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=1.153457.xyz:35851
 trojan = 1.245256.xyz:37240, password=jprWtMLTsH, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Ft%2Fdb135d90ff304311908290626e5e5309%2Ffiles%2F5deef89b1848423eb2a1295a38446a69%2Fraw&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false-3257356926

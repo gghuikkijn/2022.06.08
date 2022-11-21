@@ -1,0 +1,10 @@
+vmess = 172.67.188.120:80, method=chacha20-ietf-poly1305, password=9a1acfe7-3022-4cc8-d37a-b3a04cc70254, aead=true, obfs=ws, obfs-host=1.245256.xyz, obfs-uri=/, fast-open=false, udp-relay=false, tag=-优选ip172.67.188.120 80
+trojan = 1.245256.xyz:44624, password=fsN53sIUZV, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=1.245256.xyz:44624
+trojan = v2.xiaozhi8.xyz:13301, password=e2PzdVED0B, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=🇷🇺 v2.xiaozhi8.xyz俄罗斯
+trojan = v2.xiaozhi8.xyz:35981, password=DxwiFOnVTe, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=v2.xiaozhi8.xyz:35981
+vmess = 1.245256.xyz:443, method=chacha20-ietf-poly1305, password=c672038e-4c95-4b62-c7ca-4a25389af8e3, aead=true, obfs=wss, obfs-host=1.245256.xyz, obfs-uri=/hjj, fast-open=false, udp-relay=false, tls-verification=true, tag=1.245256.xyz:443
+vmess = 172.67.188.120:443, method=chacha20-ietf-poly1305, password=c672038e-4c95-4b62-c7ca-4a25389af8e3, aead=true, obfs=wss, obfs-host=1.245256.xyz, obfs-uri=/hjj, fast-open=false, udp-relay=false, tls-verification=true, tag=优选ip443
+vmess = 172.67.188.120:80, method=chacha20-ietf-poly1305, password=9a1acfe7-3022-4cc8-d37a-b3a04cc70254, aead=true, obfs=ws, obfs-host=1.245256.xyz, obfs-uri=/, fast-open=false, udp-relay=false, tag=-优选ip172.67.188.120 80 2
+trojan = v2.xiaozhi8.xyz:39363, password=uXoDR4bgnX, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=v2.xiaozhi8.xyz:39363
+vmess = v2.xiaozhi8.xyz:54661, method=chacha20-ietf-poly1305, password=9e5f0564-a9d8-4d13-8a49-ee2aed216669, aead=true, obfs=over-tls, obfs-host=v2.xiaozhi8.xyz, fast-open=false, udp-relay=false, tls-verification=true, tag=v2.xiaozhi8.xyz:54661
+trojan = v2.xiaozhi8.xyz:58523, password=muBjmsUeyn, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=v2.xiaozhi8.xyz:58523

@@ -5,32 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: -优选ip172.67.188.120 80, server: 172.67.188.120, port: 80, type: vmess, uuid: 9a1acfe7-3022-4cc8-d37a-b3a04cc70254, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 1.245256.xyz}}}
-  - {name: 1.245256.xyz:44624, server: 1.245256.xyz, port: 44624, type: trojan, password: fsN53sIUZV, skip-cert-verify: false}
-  - {name: 🇷🇺 v2.xiaozhi8.xyz俄罗斯, server: v2.xiaozhi8.xyz, port: 13301, type: trojan, password: e2PzdVED0B, skip-cert-verify: false}
-  - {name: v2.xiaozhi8.xyz:35981, server: v2.xiaozhi8.xyz, port: 35981, type: trojan, password: DxwiFOnVTe, skip-cert-verify: false}
-  - {name: 1.245256.xyz:443, server: 1.245256.xyz, port: 443, type: vmess, uuid: c672038e-4c95-4b62-c7ca-4a25389af8e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hjj, headers: {Host: 1.245256.xyz}}}
+  - {name: 1.153457.xyz:50043, server: 1.153457.xyz, port: 50043, type: trojan, password: fUEnoRZU1V, skip-cert-verify: false}
   - {name: 优选ip443, server: 172.67.188.120, port: 443, type: vmess, uuid: c672038e-4c95-4b62-c7ca-4a25389af8e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hjj, headers: {Host: 1.245256.xyz}}}
-  - {name: -优选ip172.67.188.120 80 2, server: 172.67.188.120, port: 80, type: vmess, uuid: 9a1acfe7-3022-4cc8-d37a-b3a04cc70254, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 1.245256.xyz}}}
-  - {name: v2.xiaozhi8.xyz:39363, server: v2.xiaozhi8.xyz, port: 39363, type: trojan, password: uXoDR4bgnX, skip-cert-verify: false}
-  - {name: v2.xiaozhi8.xyz:54661, server: v2.xiaozhi8.xyz, port: 54661, type: vmess, uuid: 9e5f0564-a9d8-4d13-8a49-ee2aed216669, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: v2.xiaozhi8.xyz:58523, server: v2.xiaozhi8.xyz, port: 58523, type: trojan, password: muBjmsUeyn, skip-cert-verify: false}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - Auto - UrlTest
       - DIRECT
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: Domestic
     type: select
     proxies:
@@ -41,16 +25,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: Others
     type: select
     proxies:
@@ -77,61 +53,29 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: Netflix
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: Spotify
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: Telegram
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: Steam
     type: select
     proxies:
@@ -143,16 +87,8 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
   - name: PayPal
     type: select
     proxies:
@@ -173,16 +109,8 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
-      - -优选ip172.67.188.120 80
-      - 1.245256.xyz:44624
-      - 🇷🇺 v2.xiaozhi8.xyz俄罗斯
-      - v2.xiaozhi8.xyz:35981
-      - 1.245256.xyz:443
+      - 1.153457.xyz:50043
       - 优选ip443
-      - -优选ip172.67.188.120 80 2
-      - v2.xiaozhi8.xyz:39363
-      - v2.xiaozhi8.xyz:54661
-      - v2.xiaozhi8.xyz:58523
 rules:
  - DOMAIN-SUFFIX,local,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
@@ -8429,6 +8357,8 @@ rules:
  - DOMAIN-SUFFIX,zzy1.quyaoya.com,AdBlock
  - DOMAIN-SUFFIX,zzz7.52896368.com,AdBlock
  - DOMAIN-SUFFIX,zzzzz4.52896368.com,AdBlock
+ - DOMAIN-SUFFIX,5534edee5a.com,AdBlock
+ - DOMAIN-SUFFIX,ea778a21c7.com,AdBlock
  - DOMAIN-SUFFIX,baidustatic.com,AdBlock
  - DOMAIN,duclick.baidu.com,AdBlock
  - DOMAIN,hm.baidu.com,AdBlock
@@ -8438,7 +8368,6 @@ rules:
  - DOMAIN,nsclick.baidu.com,AdBlock
  - DOMAIN,wn.pos.baidu.com,AdBlock
  - DOMAIN,ps.map.baidu.com,AdBlock
- - DOMAIN,sv.map.baidu.com,AdBlock
  - DOMAIN,offnavi.map.baidu.com,AdBlock
  - DOMAIN,newvector.map.baidu.com,AdBlock
  - DOMAIN,ulog.imap.baidu.com,AdBlock
@@ -8509,24 +8438,41 @@ rules:
  - IP-CIDR,180.166.52.24/32,AdBlock,no-resolve
  - IP-CIDR,220.115.251.25/32,AdBlock,no-resolve
  - IP-CIDR,222.73.156.235/32,AdBlock,no-resolve
- - DOMAIN-KEYWORD,netflixdnstest,Netflix
- - DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
- - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
- - DOMAIN,api.fast.com,Netflix
- - DOMAIN,netflix.com.edgesuite.net,Netflix
+ - DOMAIN-SUFFIX,flxvpn.net,Netflix
+ - DOMAIN-SUFFIX,netflix.ca,Netflix
  - DOMAIN-SUFFIX,netflix.com,Netflix
+ - DOMAIN-SUFFIX,netflix.com.au,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest10.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest1.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest2.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest3.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest4.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest5.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
+ - DOMAIN-SUFFIX,netflixinvestor.com,Netflix
  - DOMAIN-SUFFIX,netflix.net,Netflix
+ - DOMAIN-SUFFIX,netflixstudios.com,Netflix
+ - DOMAIN-SUFFIX,netflixtechblog.com,Netflix
  - DOMAIN-SUFFIX,nflxext.com,Netflix
  - DOMAIN-SUFFIX,nflximg.com,Netflix
  - DOMAIN-SUFFIX,nflximg.net,Netflix
- - DOMAIN-SUFFIX,nflxsearch,Netflix
  - DOMAIN-SUFFIX,nflxso.net,Netflix
  - DOMAIN-SUFFIX,nflxvideo.net,Netflix
+ - DOMAIN,e13252.dscg.akamaiedge.net,Netflix
+ - DOMAIN,h-netflix.online-metrix.net,Netflix
+ - DOMAIN,netflix.com.edgesuite.net,Netflix
+ - DOMAIN-SUFFIX,onetrust.com,Netflix
+ - DOMAIN-SUFFIX,cookielaw.org,Netflix
  - IP-CIDR,23.246.0.0/18,Netflix,no-resolve
+ - IP-CIDR,34.210.42.111/32,Netflix,no-resolve
  - IP-CIDR,37.77.184.0/21,Netflix,no-resolve
  - IP-CIDR,38.72.126.0/24,Netflix,no-resolve
  - IP-CIDR,45.57.0.0/17,Netflix,no-resolve
+ - IP-CIDR,52.89.124.203/32,Netflix,no-resolve
+ - IP-CIDR,54.148.37.5/32,Netflix,no-resolve
  - IP-CIDR,64.120.128.0/17,Netflix,no-resolve
  - IP-CIDR,66.197.128.0/17,Netflix,no-resolve
  - IP-CIDR,69.53.224.0/19,Netflix,no-resolve
@@ -8538,14 +8484,22 @@ rules:
  - IP-CIDR,198.38.96.0/19,Netflix,no-resolve
  - IP-CIDR,198.45.48.0/20,Netflix,no-resolve
  - IP-CIDR,208.75.76.0/22,Netflix,no-resolve
- - IP-CIDR,34.210.42.111/32,Netflix,no-resolve
- - IP-CIDR,52.89.124.203/32,Netflix,no-resolve
- - IP-CIDR,54.148.37.5/32,Netflix,no-resolve
+ - IP-CIDR6,2607:fb10::/32,Netflix,no-resolve
+ - IP-CIDR6,2620:10c:7000::/44,Netflix,no-resolve
+ - IP-CIDR6,2a00:86c0::/32,Netflix,no-resolve
+ - IP-CIDR6,2a03:5640::/32,Netflix,no-resolve
  - DOMAIN-SUFFIX,pscdn.co,Spotify
  - DOMAIN-SUFFIX,scdn.co,Spotify
  - DOMAIN-SUFFIX,spoti.fi,Spotify
  - DOMAIN-SUFFIX,spotify.com,Spotify
+ - DOMAIN-SUFFIX,spotifycdn.com,Spotify
  - DOMAIN-SUFFIX,spotifycdn.net,Spotify
+ - DOMAIN-SUFFIX,spotifycharts.com,Spotify
+ - DOMAIN-SUFFIX,spotifycodes.com,Spotify
+ - DOMAIN-SUFFIX,spotifyjobs.com,Spotify
+ - DOMAIN-SUFFIX,spotifynewsroom.jp,Spotify
+ - DOMAIN-SUFFIX,spotilocal.com,Spotify
+ - DOMAIN-SUFFIX,tospotify.com,Spotify
  - DOMAIN-SUFFIX,acg.tv,AsianTV
  - DOMAIN-SUFFIX,acgvideo.com,AsianTV
  - DOMAIN-SUFFIX,b23.tv,AsianTV
@@ -8581,25 +8535,36 @@ rules:
  - DOMAIN-KEYWORD,avoddashs,GlobalTV
  - DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
  - DOMAIN-SUFFIX,aiv-delivery.net,GlobalTV
- - DOMAIN-SUFFIX,amazonvideo.com,GlobalTV
+ - DOMAIN-SUFFIX,amazonprimevideos.com,GlobalTV
  - DOMAIN-SUFFIX,amazonvideo.cc,GlobalTV
+ - DOMAIN-SUFFIX,amazonvideo.com,GlobalTV
+ - DOMAIN-SUFFIX,amazonvideodirect.cc,GlobalTV
+ - DOMAIN-SUFFIX,atv-ext.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,atv-ext-eu.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,atv-ext-fe.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,atv-ps.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk,GlobalTV
+ - DOMAIN-SUFFIX,atv-ps-eu.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp,GlobalTV
+ - DOMAIN-SUFFIX,atv-ps-fe.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,fls-na.amazon.com,GlobalTV
  - DOMAIN-SUFFIX,media-amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,primevideo.cc,GlobalTV
  - DOMAIN-SUFFIX,primevideo.com,GlobalTV
  - DOMAIN-SUFFIX,prime-video.com,GlobalTV
- - DOMAIN-SUFFIX,primevideo.cc,GlobalTV
  - DOMAIN-SUFFIX,primevideo.info,GlobalTV
  - DOMAIN-SUFFIX,primevideo.org,GlobalTV
  - DOMAIN-SUFFIX,primevideo.tv,GlobalTV
- - DOMAIN-SUFFIX,amazonvideodirect.cc,GlobalTV
- - DOMAIN-SUFFIX,amazonprimevideos.com,GlobalTV
- - DOMAIN,atv-ps.amazon.com,GlobalTV
- - DOMAIN,fls-na.amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,pv-cdn.net,GlobalTV
+ - DOMAIN-SUFFIX,video.a2z.com,GlobalTV
  - DOMAIN,avodmp4s3ww-a.akamaihd.net,GlobalTV
  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GlobalTV
+ - DOMAIN,d1y002tclu9djj.cloudfront.net,GlobalTV
  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,GlobalTV
  - DOMAIN,d25xi40x97liuc.cloudfront.net,GlobalTV
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,GlobalTV
  - DOMAIN,d27xxe7juh1us6.cloudfront.net,GlobalTV
+ - DOMAIN,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com,GlobalTV
  - DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
  - DOMAIN,np-edge.itunes.apple.com,GlobalTV
  - DOMAIN,play-edge.itunes.apple.com,GlobalTV
@@ -8621,19 +8586,26 @@ rules:
  - DOMAIN-SUFFIX,bbci.co.uk,GlobalTV
  - DOMAIN-SUFFIX,bidi.net.uk,GlobalTV
  - DOMAIN-KEYWORD,voddazn,GlobalTV
- - DOMAIN-SUFFIX,dazn-api.com,GlobalTV
  - DOMAIN-SUFFIX,dazn.com,GlobalTV
+ - DOMAIN-SUFFIX,dazn-api.com,GlobalTV
  - DOMAIN-SUFFIX,dazndn.com,GlobalTV
+ - DOMAIN-SUFFIX,daznedge.net,GlobalTV
+ - DOMAIN-SUFFIX,daznfeeds.com,GlobalTV
+ - DOMAIN-SUFFIX,daznservices.com,GlobalTV
  - DOMAIN-SUFFIX,indazn.com,GlobalTV
  - DOMAIN-SUFFIX,indaznlab.com,GlobalTV
+ - DOMAIN,daznfeeds.com.edgekey.net,GlobalTV
+ - DOMAIN,dca-lm-livedazn.secure.footprint.net,GlobalTV
+ - DOMAIN,h-dazn.online-metrix.net,GlobalTV
+ - DOMAIN,images-daznservices-com.cdn.ampproject.org,GlobalTV
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,GlobalTV
+ - IP-CIDR,185.42.236.0/24,GlobalTV,no-resolve
+ - IP-CIDR,185.42.238.0/24,GlobalTV,no-resolve
  - DOMAIN-SUFFIX,adobedtm.com,GlobalTV
- - DOMAIN-SUFFIX,bam.nr-data.net,GlobalTV
+ - DOMAIN-SUFFIX,bam.nr-date.net,GlobalTV
  - DOMAIN-SUFFIX,bamgrid.com,GlobalTV
  - DOMAIN-SUFFIX,braze.com,GlobalTV
  - DOMAIN-SUFFIX,cdn.optimizely.com,GlobalTV
- - DOMAIN-SUFFIX,cdn.registerdisney.go.com,GlobalTV
- - DOMAIN-SUFFIX,cws.conviva.com,GlobalTV
  - DOMAIN-SUFFIX,d9.flashtalking.com,GlobalTV
  - DOMAIN-SUFFIX,disney.demdex.net,GlobalTV
  - DOMAIN-SUFFIX,disney.my.sentry.io,GlobalTV
@@ -8643,8 +8615,7 @@ rules:
  - DOMAIN-SUFFIX,disney-plus.net,GlobalTV
  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,GlobalTV
  - DOMAIN-SUFFIX,dssott.com,GlobalTV
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GlobalTV
- - DOMAIN-SUFFIX,js-agent.newrelic.com,GlobalTV
+ - DOMAIN-SUFFIX,registerdisney.go.com,GlobalTV
  - DOMAIN-SUFFIX,encoretvb.com,GlobalTV
  - DOMAIN,content.jwplatform.com,GlobalTV
  - DOMAIN,videos-f.jwpsrv.com,GlobalTV
@@ -8656,27 +8627,43 @@ rules:
  - DOMAIN-SUFFIX,theplatform.com,GlobalTV
  - DOMAIN-KEYWORD,hbogoasia,GlobalTV
  - DOMAIN-SUFFIX,hboasia.com,GlobalTV
+ - DOMAIN-SUFFIX,hbogo.co.th,GlobalTV
+ - DOMAIN-SUFFIX,hbogo.com,GlobalTV
+ - DOMAIN-SUFFIX,hbogo.eu,GlobalTV
  - DOMAIN-SUFFIX,hbogoasia.com,GlobalTV
+ - DOMAIN-SUFFIX,hbogoasia.id,GlobalTV
+ - DOMAIN-SUFFIX,hbogoasia.ph,GlobalTV
  - DOMAIN,hbolb.onwardsmg.com,GlobalTV
  - DOMAIN,hbounify-prod.evergent.com,GlobalTV
  - DOMAIN,dai3fd1oh325y.cloudfront.net,GlobalTV
  - DOMAIN-SUFFIX,hbo.com,GlobalTV
- - DOMAIN-SUFFIX,hbonow.com,GlobalTV
  - DOMAIN-SUFFIX,hbomax.com,GlobalTV
  - DOMAIN-SUFFIX,hbomaxcdn.com,GlobalTV
+ - DOMAIN-SUFFIX,hbonow.com,GlobalTV
+ - DOMAIN-SUFFIX,maxgo.com,GlobalTV
  - DOMAIN,execute-api.ap-southeast-1.amazonaws.com,GlobalTV
  - DOMAIN-SUFFIX,happyon.jp,GlobalTV
  - DOMAIN-SUFFIX,hulu.jp,GlobalTV
  - DOMAIN-SUFFIX,prod.hjholdings.tv,GlobalTV
  - DOMAIN-SUFFIX,streaks.jp,GlobalTV
  - DOMAIN-SUFFIX,yb.uncn.jp,GlobalTV
- - DOMAIN-SUFFIX,cws-hulu.conviva.com,GlobalTV
  - DOMAIN-SUFFIX,hulu.com,GlobalTV
  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,GlobalTV
  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,GlobalTV
  - DOMAIN-SUFFIX,huluad.com,GlobalTV
  - DOMAIN-SUFFIX,huluim.com,GlobalTV
+ - DOMAIN-SUFFIX,hulumail.com,GlobalTV
+ - DOMAIN-SUFFIX,huluqa.com,GlobalTV
  - DOMAIN-SUFFIX,hulustream.com,GlobalTV
+ - DOMAIN,cs428.wpc.edgecastcdn.net,GlobalTV
+ - DOMAIN,cws-hulu.conviva.com,GlobalTV
+ - DOMAIN,hulu.com.c.footprint.net,GlobalTV
+ - DOMAIN,hulu.map.fastly.net,GlobalTV
+ - IP-CIDR,8.28.124.0/23,GlobalTV
+ - IP-CIDR,199.60.116.0/24,GlobalTV
+ - IP-CIDR,199.200.48.0/22,GlobalTV
+ - IP-CIDR,208.91.156.0/22,GlobalTV
+ - IP-CIDR6,2620:100:3000::/40,GlobalTV
  - DOMAIN-KEYWORD,japonx,GlobalTV
  - DOMAIN-KEYWORD,japronx,GlobalTV
  - DOMAIN-SUFFIX,japonx.com,GlobalTV
@@ -8698,24 +8685,41 @@ rules:
  - DOMAIN-KEYWORD,rthklive,GlobalTV
  - DOMAIN-SUFFIX,mytvsuper.com,GlobalTV
  - DOMAIN-SUFFIX,tvb.com,GlobalTV
- - DOMAIN-KEYWORD,netflixdnstest,GlobalTV
- - DOMAIN-KEYWORD,dualstack.apiproxy-,GlobalTV
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,GlobalTV
- - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,GlobalTV
- - DOMAIN,api.fast.com,GlobalTV
- - DOMAIN,netflix.com.edgesuite.net,GlobalTV
+ - DOMAIN-SUFFIX,flxvpn.net,GlobalTV
+ - DOMAIN-SUFFIX,netflix.ca,GlobalTV
  - DOMAIN-SUFFIX,netflix.com,GlobalTV
+ - DOMAIN-SUFFIX,netflix.com.au,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest10.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest1.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest2.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest3.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest4.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest5.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest6.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest7.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest8.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixdnstest9.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixinvestor.com,GlobalTV
  - DOMAIN-SUFFIX,netflix.net,GlobalTV
+ - DOMAIN-SUFFIX,netflixstudios.com,GlobalTV
+ - DOMAIN-SUFFIX,netflixtechblog.com,GlobalTV
  - DOMAIN-SUFFIX,nflxext.com,GlobalTV
  - DOMAIN-SUFFIX,nflximg.com,GlobalTV
  - DOMAIN-SUFFIX,nflximg.net,GlobalTV
- - DOMAIN-SUFFIX,nflxsearch,GlobalTV
  - DOMAIN-SUFFIX,nflxso.net,GlobalTV
  - DOMAIN-SUFFIX,nflxvideo.net,GlobalTV
+ - DOMAIN,e13252.dscg.akamaiedge.net,GlobalTV
+ - DOMAIN,h-netflix.online-metrix.net,GlobalTV
+ - DOMAIN,netflix.com.edgesuite.net,GlobalTV
+ - DOMAIN-SUFFIX,onetrust.com,GlobalTV
+ - DOMAIN-SUFFIX,cookielaw.org,GlobalTV
  - IP-CIDR,23.246.0.0/18,GlobalTV,no-resolve
+ - IP-CIDR,34.210.42.111/32,GlobalTV,no-resolve
  - IP-CIDR,37.77.184.0/21,GlobalTV,no-resolve
  - IP-CIDR,38.72.126.0/24,GlobalTV,no-resolve
  - IP-CIDR,45.57.0.0/17,GlobalTV,no-resolve
+ - IP-CIDR,52.89.124.203/32,GlobalTV,no-resolve
+ - IP-CIDR,54.148.37.5/32,GlobalTV,no-resolve
  - IP-CIDR,64.120.128.0/17,GlobalTV,no-resolve
  - IP-CIDR,66.197.128.0/17,GlobalTV,no-resolve
  - IP-CIDR,69.53.224.0/19,GlobalTV,no-resolve
@@ -8727,9 +8731,10 @@ rules:
  - IP-CIDR,198.38.96.0/19,GlobalTV,no-resolve
  - IP-CIDR,198.45.48.0/20,GlobalTV,no-resolve
  - IP-CIDR,208.75.76.0/22,GlobalTV,no-resolve
- - IP-CIDR,34.210.42.111/32,GlobalTV,no-resolve
- - IP-CIDR,52.89.124.203/32,GlobalTV,no-resolve
- - IP-CIDR,54.148.37.5/32,GlobalTV,no-resolve
+ - IP-CIDR6,2607:fb10::/32,GlobalTV,no-resolve
+ - IP-CIDR6,2620:10c:7000::/44,GlobalTV,no-resolve
+ - IP-CIDR6,2a00:86c0::/32,GlobalTV,no-resolve
+ - IP-CIDR6,2a03:5640::/32,GlobalTV,no-resolve
  - DOMAIN-SUFFIX,pandora.com,GlobalTV
  - DOMAIN-SUFFIX,pbs.org,GlobalTV
  - DOMAIN-SUFFIX,phncdn.com,GlobalTV
@@ -8737,7 +8742,9 @@ rules:
  - DOMAIN-SUFFIX,pornhub.com,GlobalTV
  - DOMAIN-SUFFIX,pornhubpremium.com,GlobalTV
  - DOMAIN-SUFFIX,sndcdn.com,GlobalTV
+ - DOMAIN-SUFFIX,soundcloud.app.goo.gl,GlobalTV
  - DOMAIN-SUFFIX,soundcloud.com,GlobalTV
+ - DOMAIN-SUFFIX,soundcloudmail.com,GlobalTV
  - DOMAIN-SUFFIX,bootstrapcdn.com,GlobalTV
  - DOMAIN-SUFFIX,cloudfront.net,GlobalTV
  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,GlobalTV
@@ -8749,14 +8756,10 @@ rules:
  - DOMAIN-SUFFIX,viu.com,GlobalTV
  - DOMAIN-SUFFIX,viu.tv,GlobalTV
  - DOMAIN-SUFFIX,viu.now.com,GlobalTV
- - DOMAIN-SUFFIX,ggpht.cn,GlobalTV
- - DOMAIN-SUFFIX,ggpht.com,GlobalTV
  - DOMAIN-SUFFIX,googlevideo.com,GlobalTV
- - DOMAIN-SUFFIX,withyoutube.com,GlobalTV
+ - DOMAIN-SUFFIX,gvt1.com,GlobalTV
+ - DOMAIN-SUFFIX,video.google.com,GlobalTV
  - DOMAIN-SUFFIX,youtu.be,GlobalTV
- - DOMAIN-SUFFIX,youtube,GlobalTV
- - DOMAIN-SUFFIX,youtube-nocookie.com,GlobalTV
- - DOMAIN-SUFFIX,youtube-ui.l.google.com,GlobalTV
  - DOMAIN-SUFFIX,youtube.ae,GlobalTV
  - DOMAIN-SUFFIX,youtube.al,GlobalTV
  - DOMAIN-SUFFIX,youtube.am,GlobalTV
@@ -8911,18 +8914,12 @@ rules:
  - DOMAIN-SUFFIX,youtube.vn,GlobalTV
  - DOMAIN-SUFFIX,youtubeeducation.com,GlobalTV
  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com,GlobalTV
- - DOMAIN-SUFFIX,youtubefanfest.com,GlobalTV
- - DOMAIN-SUFFIX,youtubegaming.com,GlobalTV
- - DOMAIN-SUFFIX,youtubego.co.id,GlobalTV
- - DOMAIN-SUFFIX,youtubego.co.in,GlobalTV
- - DOMAIN-SUFFIX,youtubego.com,GlobalTV
- - DOMAIN-SUFFIX,youtubego.com.br,GlobalTV
- - DOMAIN-SUFFIX,youtubego.id,GlobalTV
- - DOMAIN-SUFFIX,youtubego.in,GlobalTV
  - DOMAIN-SUFFIX,youtubei.googleapis.com,GlobalTV
  - DOMAIN-SUFFIX,youtubekids.com,GlobalTV
- - DOMAIN-SUFFIX,youtubemobilesupport.com,GlobalTV
+ - DOMAIN-SUFFIX,youtube-nocookie.com,GlobalTV
+ - DOMAIN-SUFFIX,youtube-ui.l.google.com,GlobalTV
  - DOMAIN-SUFFIX,yt.be,GlobalTV
+ - DOMAIN-SUFFIX,yt3.ggpht.com,GlobalTV
  - DOMAIN-SUFFIX,ytimg.com,GlobalTV
  - DOMAIN-SUFFIX,t.me,Telegram
  - DOMAIN-SUFFIX,tx.me,Telegram
@@ -8931,6 +8928,7 @@ rules:
  - DOMAIN-SUFFIX,telegram.me,Telegram
  - DOMAIN-SUFFIX,telegram.org,Telegram
  - DOMAIN-SUFFIX,telegram-cdn.org,Telegram
+ - DOMAIN-SUFFIX,telesco.pe,Telegram
  - IP-CIDR,91.105.192.0/23,Telegram,no-resolve
  - IP-CIDR,91.108.56.0/22,Telegram,no-resolve
  - IP-CIDR,91.108.4.0/22,Telegram,no-resolve
@@ -9607,6 +9605,7 @@ rules:
  - DOMAIN,cm.steampowered.com,DIRECT
  - DOMAIN,ol.epicgames.com,DIRECT
  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+ - DOMAIN-SUFFIX,steamserver.net,DIRECT
  - DOMAIN-SUFFIX,steamchina.com,DIRECT
  - DOMAIN,csgo.wmsj.cn,DIRECT
  - DOMAIN,dota2.wmsj.cn,DIRECT
@@ -9636,6 +9635,7 @@ rules:
  - DOMAIN-SUFFIX,teslamotors.com.cn,DIRECT
  - DOMAIN-SUFFIX,ts.la,DIRECT
  - PROCESS-NAME,UUBooster,DIRECT
+ - DOMAIN-SUFFIX,app-measurement.com,DIRECT
  - DOMAIN-SUFFIX,xunlei.com,DIRECT
  - PROCESS-NAME,aria2c,DIRECT
  - PROCESS-NAME,fdm,DIRECT
@@ -9651,6 +9651,7 @@ rules:
  - DOMAIN-SUFFIX,broadcasthe.net,DIRECT
  - DOMAIN-SUFFIX,chdbits.co,DIRECT
  - DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
+ - DOMAIN-SUFFIX,dmhy.best,DIRECT
  - DOMAIN-SUFFIX,empornium.me,DIRECT
  - DOMAIN-SUFFIX,gazellegames.net,DIRECT
  - DOMAIN-SUFFIX,hdchina.org,DIRECT
@@ -9672,6 +9673,9 @@ rules:
  - DOMAIN-SUFFIX,totheglory.im,DIRECT
  - DOMAIN-SUFFIX,smtp,DIRECT
  - DOMAIN,testflight.apple.com,Proxies
+ - DOMAIN-KEYWORD,duolingo,Proxies
+ - DOMAIN-SUFFIX,duolingo.cn,Proxies
+ - DOMAIN-SUFFIX,duolingo.com,Proxies
  - DOMAIN-SUFFIX,lin.ee,Proxies
  - DOMAIN-SUFFIX,line.me,Proxies
  - DOMAIN-SUFFIX,line.naver.jp,Proxies
@@ -9728,7 +9732,6 @@ rules:
  - DOMAIN-SUFFIX,apkpure.com,Proxies
  - DOMAIN-SUFFIX,appdownloader.net,Proxies
  - DOMAIN-SUFFIX,apple-dns.net,Proxies
- - DOMAIN-SUFFIX,app-measurement.com,Proxies
  - DOMAIN-SUFFIX,appshopper.com,Proxies
  - DOMAIN-SUFFIX,arcgis.com,Proxies
  - DOMAIN-SUFFIX,archive.is,Proxies
@@ -10336,6 +10339,8 @@ rules:
  - DOMAIN-SUFFIX,webrtc.org,Proxies
  - DOMAIN-SUFFIX,v2ex.com,Proxies
  - DOMAIN-KEYWORD,dlercloud,Proxies
+ - DOMAIN-SUFFIX,vikacg.com,Proxies
+ - DOMAIN-SUFFIX,picjs.xyz,Proxies
  - DOMAIN-SUFFIX,wheel-size.cn,Proxies
  - DOMAIN-SUFFIX,chalungu.cn,Proxies
  - IP-CIDR,13.32.0.0/16,Proxies,no-resolve
@@ -10398,6 +10403,22 @@ rules:
  - IP-CIDR,75.126.0.0/16,Proxies,no-resolve
  - IP-CIDR,174.37.0.0/16,Proxies,no-resolve
  - IP-CIDR,208.43.0.0/16,Proxies,no-resolve
+ - DOMAIN-SUFFIX,abchina.com,Domestic
+ - DOMAIN-SUFFIX,abchina.com.cn,Domestic
+ - DOMAIN-SUFFIX,boc.cn,Domestic
+ - DOMAIN-SUFFIX,citicbank.com,Domestic
+ - DOMAIN-SUFFIX,ecitic.com,Domestic
+ - DOMAIN-SUFFIX,ecitic.net,Domestic
+ - DOMAIN-SUFFIX,ccb.com,Domestic
+ - DOMAIN-SUFFIX,ccb.com.cn,Domestic
+ - DOMAIN-SUFFIX,cebbank.com,Domestic
+ - DOMAIN-SUFFIX,cmbchina.com,Domestic
+ - DOMAIN-SUFFIX,cmbimg.com,Domestic
+ - DOMAIN-SUFFIX,cmbt.cn,Domestic
+ - DOMAIN-SUFFIX,mbcloud.com,Domestic
+ - DOMAIN-SUFFIX,icbc.com.cn,Domestic
+ - DOMAIN-SUFFIX,pingan.com,Domestic
+ - DOMAIN-SUFFIX,pingan.com.cn,Domestic
  - DOMAIN-KEYWORD,beplay,Domestic
  - DOMAIN,cdp.cloud.unity3d.com,Domestic
  - DOMAIN-SUFFIX,battle.net,Domestic
@@ -10429,10 +10450,13 @@ rules:
  - IP-CIDR,129.226.0.0/16,Domestic,DIRECT,no-resolve
  - IP-CIDR,183.128.0.0/11,Domestic,DIRECT,no-resolve
  - IP-CIDR,183.131.48.0/20,Domestic,DIRECT,no-resolve
+ - DOMAIN-SUFFIX,10010.com,Domestic
+ - DOMAIN-SUFFIX,10086.cn,Domestic
  - DOMAIN-SUFFIX,12306.cn,Domestic
  - DOMAIN-SUFFIX,12306.com,Domestic
  - DOMAIN-SUFFIX,126.net,Domestic
  - DOMAIN-SUFFIX,163.com,Domestic
+ - DOMAIN-SUFFIX,189.cn,Domestic
  - DOMAIN-SUFFIX,360.cn,Domestic
  - DOMAIN-SUFFIX,360.com,Domestic
  - DOMAIN-SUFFIX,360buy.com,Domestic
@@ -10441,6 +10465,7 @@ rules:
  - DOMAIN-SUFFIX,51ym.me,Domestic
  - DOMAIN-SUFFIX,58.com,Domestic
  - DOMAIN-SUFFIX,8686c.com,Domestic
+ - DOMAIN-SUFFIX,95516.com,Domestic
  - DOMAIN-SUFFIX,abercrombie.com,Domestic
  - DOMAIN-SUFFIX,acfun.tv,Domestic
  - DOMAIN-SUFFIX,adobesc.com,Domestic
@@ -10497,8 +10522,6 @@ rules:
  - DOMAIN-SUFFIX,duoshuo.com,Domestic
  - DOMAIN-SUFFIX,dytt8.net,Domestic
  - DOMAIN-SUFFIX,easou.com,Domestic
- - DOMAIN-SUFFIX,ecitic.com,Domestic
- - DOMAIN-SUFFIX,ecitic.net,Domestic
  - DOMAIN-SUFFIX,eudic.net,Domestic
  - DOMAIN-SUFFIX,ewqcxz.com,Domestic
  - DOMAIN-SUFFIX,feng.com,Domestic
@@ -10646,8 +10669,6 @@ rules:
  - DOMAIN-SUFFIX,xdrig.com,Domestic
  - DOMAIN-SUFFIX,xhostfire.com,Domestic
  - DOMAIN-SUFFIX,xhscdn.com,Domestic
- - DOMAIN-SUFFIX,xiami.com,Domestic
- - DOMAIN-SUFFIX,xiami.net,Domestic
  - DOMAIN-SUFFIX,xiaohongshu.com,Domestic
  - DOMAIN-SUFFIX,xiaojukeji.com,Domestic
  - DOMAIN-SUFFIX,xiaomi.com,Domestic
@@ -10673,6 +10694,7 @@ rules:
  - DOMAIN-SUFFIX,zimuzu.tv,Domestic
  - DOMAIN-SUFFIX,zmz002.com,Domestic
  - IP-CIDR,1.255.62.0/24,Domestic,no-resolve
+ - DOMAIN-SUFFIX,gov.cn,Domestic
  - DOMAIN-SUFFIX,cn,Domestic
  - DOMAIN-KEYWORD,apple.com.akadns.net,Apple
  - DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
